@@ -1,10 +1,4 @@
-# CPS572 Final Project: Multi-Task LLM Fine-Tuning
-
-Fine-tune a base language model using [Tinker](https://github.com/thinking-machines-lab) to perform well on three tasks simultaneously: **Instruction Following (IFEval)**, **Math Reasoning (GSM8K)**, and **Code Generation (HumanEval)**.
-
-For project requirements, grading breakdown, deliverables, and policies, see [`PROJECT.md`](PROJECT.md).
-
----
+#Multi-Task LLM Fine-Tuning
 
 ## Setup
 
@@ -25,7 +19,6 @@ uv pip install -r requirements.txt
 # Set your Tinker API key
 export TINKER_API_KEY="your-api-key-here"
 ```
-
 ---
 
 ## Getting Started
