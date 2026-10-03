@@ -88,9 +88,7 @@ python evaluation/eval_all.py --checkpoint_path "tinker://your-checkpoint-path" 
 bash evaluation/run_eval.sh "tinker://your-checkpoint-path"
 ```
 
-This produces `evaluation/submission.json`. **Upload this file to Gradescope.** The leaderboard will update with your scores in real time.
-
----
+This produces `evaluation/submission.json`. 
 
 ## Passing Baseline
 
@@ -102,7 +100,6 @@ These are the per-task scores your model must meet to receive full baseline cred
 | GSM8K | 50.0% |
 | HumanEval | 30.0% |
 
-See `PROJECT.md` for full grading details.
 
 ---
 
@@ -112,8 +109,6 @@ See `PROJECT.md` for full grading details.
 |-----------|------|---------|-------------|
 | Temperature | `--temperature` | 0.0 | Controls randomness. 0 = greedy/deterministic. |
 | Top-p | `--top_p` | 1.0 | Nucleus sampling. 1.0 = disabled. |
-
-These settings are stored in `submission.json` so the instructor can reproduce your results.
 
 ---
 
